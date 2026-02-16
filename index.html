@@ -45,19 +45,49 @@
         <h2>Projetos</h2>
         <article>
             <h3>Portifólio</h3>
-            <p>Este foi o primeiro projeto que desenvolvi estudando front-end.<br><br>
-            Direitos reservados a Demilson.</p>
+            <p>Este foi o primeiro projeto que desenvolvi estudando front-end.</p>
         </article>
     </section>
-    <section id="Contato">
-        <h2>Contatos</h2>
-        <article>
-            <p>Tem um projeto em mente? Entre em contato.</p>
-            <p><a href="mailto: demilsonsousa08@gmail.com">Email: demilsonsousa08@gmail.com</a></p>
-            <p><a href="Tel:+5548991592586">Tel: (48)99159-2586</a></p>
-            <p><a href="https://wa.me/5548991592586" target="_blank">Whatsapp</a></p>
-        </article>
-    </section>
+
+    <footer>
+        <p>Direitos reservados a Demilson Sousa.</p>
+        <section id="Contato">
+            <h2>Contatos</h2>
+            <article>
+                <p>Tem um projeto em mente? Entre em contato.</p>
+                <address>
+                <p><a href="mailto: demilsonsousa08@gmail.com">Email: demilsonsousa08@gmail.com</a></p>
+                <p><a href="Tel:+5548991592586">Tel: (48)99159-2586</a></p>
+                <p><a href="https://wa.me/5548991592586" target="_blank">Whatsapp</a></p>
+                </address>
+            </article>
+            <p>Ou, se preferir, preencha seus dados.</p>
+            <form action="">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="tel">Telefone:</label>
+                <input type="tel" id="tel" name="tel" required><br>
+
+                <label for="selecao">Selecione o motivo:</label>
+                <select name="selecao" id="selecao">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select><br>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" rows="5" cols="20"></textarea><br>
+
+                <input type="checkbox" id="inscricao">
+                <label for="inscricao">Queres receber nossa newsletter?</label>
+            </form>
+        </section>
+    </footer>    
 </body>
 
 </html>
